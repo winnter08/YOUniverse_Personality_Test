@@ -124,7 +124,7 @@ public class YOUniverseApp {
             boolean valid = false;
             while (!valid) {
                 clearScreen();
-                System.out.println(" ______________________________________________________");
+                System.out.println("______________________________________________________");
                 System.out.printf("| QUESTION %-41d |\n", (i + 1));
                 System.out.println("|                                                    |");
 
