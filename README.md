@@ -140,17 +140,10 @@ You can run this program using **IntelliJ IDEA** (Recommended) or **VS Code**.
 * **Java Development Kit (JDK):** Version 17 or higher is recommended.
 * **Terminal:** The program runs inside the IDE's built-in terminal.
 
-<div align="center">
-<br>
-<i>"The stars shine brighter when you do."</i> 🌟
-</div>
 
 <div align="center">
 <br>
 <i>"The stars shine brighter when you do."</i> 🌟
 </div>
 
-<div align="center">
-<br>
-<i>"The stars shine brighter when you do."</i> 🌟
-</div>
+
