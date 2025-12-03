@@ -1,4 +1,4 @@
-package src;// YOUniverseApp.java
+// YOUniverseApp.java
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
@@ -87,7 +87,7 @@ public class YOUniverseApp {
     private static void showIntro() {
         System.out.println(" __________________________________________________________________________");
         System.out.println("|                                                                          |");
-        System.out.println("|                     WELCOME TO YOUR YOUNIVERSE                           |");
+        System.out.println("|              ✨ 🌌  WELCOME TO YOUR YOUNIVERSE  🌌 ✨                    |");
         System.out.println("|--------------------------------------------------------------------------|");
         System.out.println("|  Every person carries an entire universe within them.                    |");
         System.out.println("|                                                                          |");
@@ -101,10 +101,10 @@ public class YOUniverseApp {
         scanner.nextLine();
     }
 
-    // --- RESTORED: THE BOXED MAIN MENU ---
+    // --- MAIN MENU WITH EMOJI HEADER ---
     private static void showMainMenu() {
         System.out.println(" _________________________________");
-        System.out.println("|         MAIN MENU             |");
+        System.out.println("|         🌌 MAIN MENU 🌌       |");
         System.out.println("|-------------------------------|");
         System.out.println("| 1. Take the Personality Test  |");
         System.out.println("| 2. View My Personality Type   |");
@@ -115,7 +115,6 @@ public class YOUniverseApp {
         System.out.print("\nChoose an option (1-5): ");
     }
 
-    // --- RESTORED: THE BOXED QUESTION PAGE ---
     private static void takeTest() {
         List<String> answers = new ArrayList<>();
 
@@ -128,7 +127,6 @@ public class YOUniverseApp {
                 System.out.printf("| QUESTION %-41d |\n", (i + 1));
                 System.out.println("|                                                    |");
 
-                // Truncate text if it's too long to fit the box
                 String qText = q.getText();
                 if (qText.length() > 50) qText = qText.substring(0, 47) + "...";
 
@@ -136,7 +134,6 @@ public class YOUniverseApp {
                 System.out.println("|                                                    |");
                 System.out.println("|----------------------------------------------------|");
 
-                // Truncate options if needed
                 String opA = q.getOptionA();
                 if (opA.length() > 47) opA = opA.substring(0, 44) + "...";
 
@@ -285,5 +282,3 @@ public class YOUniverseApp {
                 "You help or understand someone", "You achieve something difficult", "FT"));
     }
 }
-
-
