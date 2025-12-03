@@ -38,22 +38,49 @@ It demonstrates the practical use of Object-Oriented Programming (OOP) concepts 
 - `INFJ.java … ENTJ` - Each represents a specific personality type. These classes inherit from **PersonalityType.java** and define unique traits, behaviors, and guidance relevant to students.
 - `Question.java` - Represents each test question as an object. It stores the question text, available options, and validates input to make sure responses are correct.
 - `InvalidAnswerException.java` - Handles unexpected or invalid input. This keeps the program running smoothly without crashes or interruptions
-### How to Run the Program
-1. Open your terminal in the src/ folder where all .java files are located.
-2. Compile all the Java files:
-```
-javac *.java
-```
-3. Run the program using:
-```
-java YOUniverseApp
-```
-4. Follow the on-screen instructions to start exploring the personality system.
-<details>
-  <summary>💡 Tip</summary>
-  
-Keep your console open while exploring so you can read all messages and results clearly.
-</details>
+## 🚀 How to Run
+
+You can run this program using **IntelliJ IDEA** (Recommended) or **VS Code**.
+
+### 🔹 Option 1: Command Line (Terminal)
+To run the program manually, follow these steps exactly:
+
+1.  Open your terminal/command prompt in the **main project folder** (the folder that *contains* the `src` folder).
+2.  Compile the code:
+    ```bash
+    javac src/*.java
+    ```
+3.  Run the program:
+    ```bash
+    java src.YOUniverseApp
+    ```
+### 🔹 Option 1: IntelliJ IDEA (Best Experience)
+1.  Open IntelliJ IDEA.
+2.  Go to **File > New > Project from Version Control**.
+3.  Paste this URL:
+    ```
+    [https://github.com/winnter08/YOUniverse_Personality_Test.git](https://github.com/winnter08/YOUniverse_Personality_Test.git)
+    ```
+4.  Click **Clone**.
+5.  Once the project loads, navigate to the `src` folder.
+6.  Right-click `YOUniverseApp.java` and select **Run 'YOUniverseApp.main()'**.
+
+<br>
+
+### 🔹 Option 3: Visual Studio Code
+**Prerequisite:** You must have the **"Extension Pack for Java"** installed in VS Code.
+
+1.  Open VS Code.
+2.  Press `Ctrl + Shift + P` (or `Cmd + Shift + P` on Mac) and type **Git: Clone**.
+3.  Paste this URL:
+    ```
+    [https://github.com/winnter08/YOUniverse_Personality_Test.git](https://github.com/winnter08/YOUniverse_Personality_Test.git)
+    ```
+4.  Select a folder on your computer to save it.
+5.  When prompted, click **Open**.
+6.  Navigate to `src/YOUniverseApp.java`.
+7.  Wait for the Java extension to load (you will see a thumbs-up icon or "Ready" at the bottom right).
+8.  Click the **Run** button (Play icon) in the top right corner.
 
 ## ‧₊˚ ┊ Features
 1. **Start Personality Test.** Begin the personality assessment. The program guides through reflective questions and collects answers to determine personality traits and tendencies.
