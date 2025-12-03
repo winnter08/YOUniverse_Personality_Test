@@ -1,18 +1,12 @@
-<div align="center">
-
-# 🌌 ⟡ YOUniverse ⟡ 🌌
-
-### Your console-based journey to self-discovery.
-
-<br>
-
-**CS 101 - Introduction to Computing**
-
-**[Your Name Here]** *Bachelor of Science in Information Technology*
-
-<br>
-
-</div>
+<h1 align = "center">𐔌 .⋮  𝓨𝓞𝓤𝓝𝓘𝓥𝓔𝓡𝓢𝓔  .ᐟ ֹ ₊ ꒱</h1>
+<h3 align = "center">༘⋆₊ ⊹★🔭๋࣭ ⭑⋆｡˚</h3>
+<h3 align = "center">Your console-based personality exploration universe.</h3>
+<p align = "center">
+<b>IT 2111 </b> <br/>
+De Ocampo, Summer Rain F. <br/>
+Fegalan, Aliyah F. <br/>
+Harina, Alwin C.
+</p>
 
 ## ⟡ Overview
 **YOUniverse** is a console-based Java application designed to help users explore their personality type through a modernized, Gen-Z friendly assessment engine.
