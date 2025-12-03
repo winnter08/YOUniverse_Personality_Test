@@ -1,4 +1,4 @@
-// YOUniverseApp.java
+package src;// YOUniverseApp.java
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
@@ -87,24 +87,24 @@ public class YOUniverseApp {
     private static void showIntro() {
         System.out.println(" __________________________________________________________________________");
         System.out.println("|                                                                          |");
-        System.out.println("|              ✨ 🌌  WELCOME TO YOUR YOUNIVERSE  🌌 ✨                    |");
+        System.out.println("|         .\uD81A\uDD54 ݁ ˖ִ ࣪⚝₊ ⊹˚WELCOME TO YOUR YOUNIVERSE.\uD81A\uDD54 ݁ ˖ִ ࣪⚝₊ ⊹˚                 |");
         System.out.println("|--------------------------------------------------------------------------|");
-        System.out.println("|  Every person carries an entire universe within them.                    |");
+        System.out.println("|  Every person carries an entire universe within them. \uD83C\uDF0C                 |");
         System.out.println("|                                                                          |");
-        System.out.println("|  Here, we help you explore that inner world through reflective           |");
-        System.out.println("|  questions designed to reveal your strengths and motivations.            |");
+        System.out.println("|  Here, we help you explore that inner world through reflective\uD83C\uDF20         |");
+        System.out.println("|  questions designed to reveal your strengths and motivations.\uD83D\uDCAA          |");
         System.out.println("|                                                                          |");
         System.out.println("|  This is not your usual personality test.                                |");
-        System.out.println("|  This is YOUR journey. YOUR rhythm. YOUR universe.                       |");
+        System.out.println("|  This is YOUR journey. YOUR rhythm. YOUR universe.\uD83C\uDF0C                     |");
         System.out.println("|__________________________________________________________________________|");
         System.out.println("\nAre you ready to begin? (Press ENTER)");
         scanner.nextLine();
     }
 
-    // --- MAIN MENU WITH EMOJI HEADER ---
+    // --- RESTORED: THE BOXED MAIN MENU ---
     private static void showMainMenu() {
-        System.out.println(" _________________________________");
-        System.out.println("|         🌌 MAIN MENU 🌌       |");
+        System.out.println("_________________________________");
+        System.out.println("|        ✨MAIN MENU✨          |");
         System.out.println("|-------------------------------|");
         System.out.println("| 1. Take the Personality Test  |");
         System.out.println("| 2. View My Personality Type   |");
@@ -115,6 +115,7 @@ public class YOUniverseApp {
         System.out.print("\nChoose an option (1-5): ");
     }
 
+    // --- RESTORED: THE BOXED QUESTION PAGE ---
     private static void takeTest() {
         List<String> answers = new ArrayList<>();
 
@@ -127,6 +128,7 @@ public class YOUniverseApp {
                 System.out.printf("| QUESTION %-41d |\n", (i + 1));
                 System.out.println("|                                                    |");
 
+                // Truncate text if it's too long to fit the box
                 String qText = q.getText();
                 if (qText.length() > 50) qText = qText.substring(0, 47) + "...";
 
@@ -134,6 +136,7 @@ public class YOUniverseApp {
                 System.out.println("|                                                    |");
                 System.out.println("|----------------------------------------------------|");
 
+                // Truncate options if needed
                 String opA = q.getOptionA();
                 if (opA.length() > 47) opA = opA.substring(0, 44) + "...";
 
@@ -258,7 +261,7 @@ public class YOUniverseApp {
                 "Planned and structured", "Free and flexible", "JP"));
         questions.add(new Question("What frustrates you more?",
                 "Insensitivity to feelings", "Illogical choices", "FT"));
-        questions.add(new Question("Your creativity comes from..",
+        questions.add(new Question("Your creativity comes from...",
                 "Imagination and inner reflection", "Real-world hands-on experience", "NS"));
         questions.add(new Question("You are more motivated by…",
                 "Meaning and purpose", "Achievement and competence", "NS"));
@@ -282,3 +285,6 @@ public class YOUniverseApp {
                 "You help or understand someone", "You achieve something difficult", "FT"));
     }
 }
+
+
+
