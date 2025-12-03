@@ -59,7 +59,7 @@ To run the program manually, follow these steps exactly:
 2.  Go to **File > New > Project from Version Control**.
 3.  Paste this URL:
     ```
-    [https://github.com/winnter08/YOUniverse_Personality_Test.git](https://github.com/winnter08/YOUniverse_Personality_Test.git)
+    https://github.com/winnter08/YOUniverse_Personality_Test
     ```
 4.  Click **Clone**.
 5.  Once the project loads, navigate to the `src` folder.
@@ -74,7 +74,7 @@ To run the program manually, follow these steps exactly:
 2.  Press `Ctrl + Shift + P` (or `Cmd + Shift + P` on Mac) and type **Git: Clone**.
 3.  Paste this URL:
     ```
-    [https://github.com/winnter08/YOUniverse_Personality_Test.git](https://github.com/winnter08/YOUniverse_Personality_Test.git)
+    https://github.com/winnter08/YOUniverse_Personality_Test
     ```
 4.  Select a folder on your computer to save it.
 5.  When prompted, click **Open**.
