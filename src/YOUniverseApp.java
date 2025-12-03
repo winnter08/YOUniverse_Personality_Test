@@ -258,7 +258,7 @@ public class YOUniverseApp {
                 "Planned and structured", "Free and flexible", "JP"));
         questions.add(new Question("What frustrates you more?",
                 "Insensitivity to feelings", "Illogical choices", "FT"));
-        questions.add(new Question("Your creativity comes from...",
+        questions.add(new Question("Your creativity comes from..",
                 "Imagination and inner reflection", "Real-world hands-on experience", "NS"));
         questions.add(new Question("You are more motivated by…",
                 "Meaning and purpose", "Achievement and competence", "NS"));
