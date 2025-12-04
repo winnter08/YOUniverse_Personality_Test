@@ -192,7 +192,7 @@ Choose an option (1–5): ...
     <img src="https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=blue" alt="winnter08's GitHub">
         </a>
     </td>
-    <td>Lead Programmer & Feature Developer</td>
+    <td>Lead Programmer/Feature Developer</td>
 </tr>
 </table>
 
