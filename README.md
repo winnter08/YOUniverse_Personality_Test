@@ -65,8 +65,6 @@ To run the program manually, follow these steps exactly:
 5.  Once the project loads, navigate to the `src` folder.
 6.  Right-click `YOUniverseApp.java` and select **Run 'YOUniverseApp.main()'**.
 
-<br>
-
 ### 🔹 Option 3: Visual Studio Code
 **Prerequisite:** You must have the **"Extension Pack for Java"** installed in VS Code.
 
