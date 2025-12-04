@@ -177,8 +177,8 @@ Choose an option (1–5): ...
 <tr>
     <td><img src="static/aliyahff.png" width="100" height="100"> </td>
     <td><strong>Aliyah F. Fegalan, Ali</strong> <br/>
-    <a href="https://github.com/jeisquaredd" target="_blank">
-    <img src="https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=pink" alt="jeisquaredd's GitHub">
+    <a href="https://github.com/itsme-alii" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=pink" alt="itsme-alii's GitHub">
         </a>
     </td>
     <td>File Handling & Integration Specialist</td>
