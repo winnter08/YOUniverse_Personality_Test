@@ -54,7 +54,7 @@ To run the program manually, follow these steps exactly:
     ```bash
     java src.YOUniverseApp
     ```
-### 🔹 Option 1: IntelliJ IDEA (Best Experience)
+### 🔹 Option 2: IntelliJ IDEA (Best Experience)
 1.  Open IntelliJ IDEA.
 2.  Go to **File > New > Project from Version Control**.
 3.  Paste this URL:
