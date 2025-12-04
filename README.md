@@ -177,7 +177,7 @@ Choose an option (1–5): ...
     <td>Project Designer/Visual-Interface Lead</td>
 </tr>
 <tr>
-    <td><img src="static/aliyahf.jpg" width="100" height="100"> </td>
+    <td><img src="static/aliyahff.png" width="100" height="100"> </td>
     <td><strong>Aliyah F. Fegalan, Ali</strong> <br/>
     <a href="https://github.com/jeisquaredd" target="_blank">
     <img src="https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=pink" alt="jeisquaredd's GitHub">
